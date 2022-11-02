@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 256.0 256.0"
+	enable-background="new 0 0 256.0 256.0"
+	xml:space="preserve">
+	
+	<style>
+		svg {
+			transform-origin: center;
+			animation: loading-svg 0ms linear;
+			animation-delay: 12s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes loading-svg {
+			from {
+				visibility: visible;
+			}
+			to {
+				visibility: hidden;
+			}
+		}
+		path {
+			transform-origin: center;
+			animation: loading 1s linear;
+			animation-delay: 0ms;
+			animation-iteration-count: 12;
+			animation-fill-mode: forwards;
+		}
+		@keyframes loading {
+			0% {
+				opacity: 1;
+			}
+			25% {
+				transform: rotate(-100deg);
+				transform-origin: center;
+			}
+			55% {
+				transform: rotate(-200deg);
+				transform-origin: center;
+			}
+			75% {
+				transform: rotate(-300deg);
+				transform-origin: center;
+			}
+			100% {
+				opacity: 1;
+			}
+			
+		}
+	</style>
+	
+<defs>
+	<linearGradient id="stkGrad1" x1="0.000%" y1="50.000%" x2="100.000%" y2="50.000%">
+   		<stop offset="0.000%" style="stop-color:rgb(246,0,255);stop-opacity:1.000" />
+		<stop offset="50.000%" style="stop-color:rgb(255,184,0);stop-opacity:1.000" />
+		<stop offset="100.000%" style="stop-color:rgb(105,93,255);stop-opacity:1.000" />
+	</linearGradient>
+
+</defs>
+	<path
+		fill="#006DFF"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="2.56"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M615.23,12.30Q750.20,132.92,629.58,267.90"/>
+	<path
+		transform = "rotate(-0.00 130.09 134.86)"
+		fill="#FFFFFF"
+		stroke="url(#stkGrad1)"
+		fill-opacity="0.000"
+		stroke-opacity="1.0"
+		fill-rule="nonzero"
+		stroke-width="17.530169"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M24.98,134.86A105.11 105.11 -0.00 1 1 235.20,134.86"/>
+</svg>

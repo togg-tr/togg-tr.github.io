@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px" y="0px"
+	width="1920.0px" height="1080.0px"
+	viewBox="0 0 1920.0 1080.0"
+	enable-background="new 0 0 1920.0 1080.0"
+	xml:space="preserve">
+	
+	<style>
+		#rect-1 {
+			animation: rect-1 700ms linear;
+			animation-delay: 2.5s;
+			animation-iteration-count: infinite;
+		}
+		#rect-2 {
+			animation: rect-2 700ms linear;
+			animation-delay: 2.5s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes rect-1 {
+			from {
+				opacity: 1;
+			}
+			to {
+				transform-origin: center;
+				transform: skewX(40deg)
+				translateX(200px);
+				fill: #6390DA;
+			}
+		}
+		@keyframes rect-2 {
+			from {
+				opacity: 1;
+			}
+			to {
+				transform-origin: center;
+				transform: skewX(-40deg)
+				translateX(-200px);
+				fill: #6390DA;
+			}
+		}
+		#pusedoElement {
+			animation: rect 0ms;
+			animation-delay: 21s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes rect {
+			from {
+				opacity: 1;
+			}
+			to {
+				visibility: hidden;
+			}
+		}
+		#background {
+			animation: bgradius 700ms linear;
+			animation-delay: 5s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes bgradius {
+			from {
+				opacity: 1;
+			}
+			to {
+				border-radius: 200px;
+			}
+		}
+	</style>
+	
+	<path
+		fill="#006DFF"
+		fill-opacity="1.000"
+		fill-rule="nonzero"
+		d="M2595.49,51.89Q3164.93,560.75,2656.06,1130.19"/>
+		
+	<path id="background"
+		fill="#494541"
+		fill-opacity="1.000"
+		fill-rule="nonzero"
+		d="M24.00,48.06L1904.46,48.06L1904.46,1031.39L24.00,1031.39z"/>
+		
+	<g id="pusedoElement">
+		<path id="rect-1"
+			fill="#2B2F2D"
+			fill-opacity="1.000"
+			fill-rule="nonzero"
+			d="M145.39,235.55L753.75,235.55L753.75,843.91L145.39,843.91z"/>
+			
+		<path id="rect-2"
+			fill="#2B2F2D"
+			fill-opacity="1.000"
+			fill-rule="nonzero"
+			d="M1178.55,235.55L1786.91,235.55L1786.91,843.91L1178.55,843.91z"/>
+	</g>
+</svg>
